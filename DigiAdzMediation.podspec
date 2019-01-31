@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DigiAdzMediation"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "DigiAdz Framework is used to serve adds."
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #  commented Fyber in this SDK
 
-  s.source_files  = 'Classes/*.{h,m,swift}',"DigiAdz","AppTracker","HyprMX","IronSourceSDK"
+  s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK"
   s.exclude_files = "Classes/Exclude"
   s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSourceSDK/IronSource.framework'
 
