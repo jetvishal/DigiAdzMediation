@@ -112,7 +112,7 @@ Pod::Spec.new do |s|
     s.dependency 'AppLovinSDK'
     s.dependency "ChartboostSDK"
     s.dependency 'FBAudienceNetwork'
-   #s.dependency  "FyberSDK"
+    #s.dependency  "FyberSDK"
     s.dependency "InMobiSDK"
     #s.dependency "IronSourceSDK"
     s.dependency "UnityAds"
