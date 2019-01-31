@@ -92,9 +92,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #  commented Fyber in this SDK
 
-  s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK"
+  s.source_files  = 'Classes/*.{h,m,swift}',"DigiAdz","AppTracker","HyprMX","IronSourceSDK"
   s.exclude_files = "Classes/Exclude"
-  s.vendored_frameworks = 'Classes/*.{h,m,swift}','DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSourceSDK/IronSource.framework'
+  s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSourceSDK/IronSource.framework'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
