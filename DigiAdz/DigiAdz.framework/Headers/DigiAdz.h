@@ -24,7 +24,6 @@ FOUNDATION_EXPORT const unsigned char DigiAdzVersionString[];
 //#import <IronSource/IronSource.h>
 //#import <Chartboost/Chartboost.h>
 //#import <FyberSDK/FyberSDK.h>
-//Commented fyber in this SDK
 
 
 
