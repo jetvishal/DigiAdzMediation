@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DigiAdzMediation"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "DigiAdz Framework is used to serve adds."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |s|
 
   s.exclude_files = "Classes/Exclude"
   s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSourceSDK/IronSource.framework'
-  s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK"
+  s.source_files  = 'DigiAdz','AppTracker','HyprMX','IronSourceSDK'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
