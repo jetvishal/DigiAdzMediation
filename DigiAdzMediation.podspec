@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DigiAdzMediation"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "DigiAdz Framework is used to serve adds."
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "DigiAdz Framework is used to serve different types of adds from different Ad Exchanges"
 
-  s.homepage     = "https://www.google.com/"
+  s.homepage     = "http://www.jetsynthesys.com/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-   s.license      = "MIT"
+  # s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -92,9 +92,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #  commented Fyber in this SDK
 
+  s.source_files  = "DigiAdz","AppTracker","HyprMX","IronSourceSDK"
   s.exclude_files = "Classes/Exclude"
   s.vendored_frameworks = 'DigiAdz/DigiAdz.framework','AppTracker/AppTracker.framework','HyprMX/HyprMX.framework','IronSourceSDK/IronSource.framework'
-  s.source_files  = 'DigiAdz','AppTracker','HyprMX','IronSourceSDK'
+
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
